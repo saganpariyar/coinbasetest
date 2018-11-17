@@ -8,7 +8,6 @@
 
 ## Problem Statement with Solution ##
 
-We would like you to build a backend system / RESTful API service to achieve the following:
 ● Allowing users to see the bitcoin price movement for last week, last month, last year or any
 custom date.
 
