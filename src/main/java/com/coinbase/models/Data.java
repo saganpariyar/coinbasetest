@@ -22,6 +22,13 @@ public class Data {
 		this.prices = prices;
 		this.priceList = priceList;
 	}
+	
+	public Data(String base, String currency, ArrayList<Float> priceList) {
+		this.base = base;
+		this.currency = currency;
+		
+		this.priceList = priceList;
+	}
 
 	public ArrayList<Float> getPriceList() {
 		return priceList;

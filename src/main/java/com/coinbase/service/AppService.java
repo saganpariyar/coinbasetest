@@ -14,6 +14,8 @@ public interface AppService {
 
 	float getBitcoinMovingAverage(String days) throws DataValidationException;
 
-	String getTradeDecision(String days) throws DataValidationException;;
+	String getTradeDecision(String days) throws DataValidationException;
+	
+	void getPriceByDates(String startDate, String endDate, int bucket) throws DataValidationException, ParseException;
 
 }
